@@ -1,0 +1,16 @@
+Flask
+flask-cors
+requests
+pandas
+numpy
+emoji
+seaborn
+textblob
+wordcloud
+scikit-learn
+matplotlib
+openpyxl
+Pillow
+python-dateutil
+python-dotenv
+gunicorn

@@ -1,0 +1,11 @@
+{
+  "total_samples": 978,
+  "positive_count": 160,
+  "negative_count": 46,
+  "neutral_count": 772,
+  "positive_percentage": 16.359918200409,
+  "negative_percentage": 4.703476482617587,
+  "neutral_percentage": 78.93660531697341,
+  "average_polarity": 0.06256297303204256,
+  "polarity_std": 0.23764072300346042
+}

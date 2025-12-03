@@ -1,0 +1,2 @@
+total_samples,positive_count,negative_count,neutral_count,positive_percentage,negative_percentage,neutral_percentage,average_polarity,polarity_std
+978,160,46,772,16.359918200409,4.703476482617587,78.93660531697341,0.06256297303204256,0.23764072300346042
