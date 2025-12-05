@@ -535,17 +535,7 @@ def save_wordclouds(df):
         result = create_wordcloud(all_text, "wordcloud.png", "Overall Word Cloud")
         if result:
             files.append(result)
-    
-    # Sentiment-specific wordclouds
-    for sentiment in ['Positive', 'Negative', 'Neutral']:
-        subset = df[df["sentiment"] == sentiment]
-        if not subset.empty:
-            text = " ".join(subset["cleaned"].tolist())
-            if text.strip():
-                filename = f"{sentiment.lower()}_wordcloud.png"
-                result = create_wordcloud(text, filename, f"{sentiment} Comments Word Cloud")
-                if result:
-                    files.append(result)
+
     
     return files
 
