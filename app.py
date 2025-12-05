@@ -26,7 +26,7 @@ if os.path.exists(".env"):
 
 YOUTUBE_API_KEY = os.getenv("YOUTUBE_API_KEY")
 app = Flask(__name__)
-CORS(app, supports_credentials=True)
+CORS(app, resources={r"/*": {"origins": "*"}})
 YOUTUBE_ID_RE = re.compile(r"(?:v=|/)([0-9A-Za-z_-]{11}).*")
 
 def extract_video_id(url: str) -> str | None:
